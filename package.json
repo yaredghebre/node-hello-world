@@ -1,26 +1,31 @@
 {
-  "name": "node-hello-world",
+  "name": "hello-world",
   "version": "1.0.0",
-  "description": "Creating a first Server with Node",
-  "main": "app.js",
+  "description": "Creating first Server with Node",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodmon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yaredghebre/node-hello-world.git"
   },
   "keywords": [
-    "node",
+    "nodemon",
     "npm",
-    "server",
-    "dotenv",
-    "nodemon"
+    "node"
   ],
   "author": "Yared Ghebreghergis",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yaredghebre/node-hello-world/issues"
   },
-  "homepage": "https://github.com/yaredghebre/node-hello-world#readme"
+  "homepage": "https://github.com/yaredghebre/node-hello-world#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }
