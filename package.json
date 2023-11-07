@@ -26,6 +26,7 @@
     "nodemon": "^3.0.1"
   },
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "the-office": "^2.0.0"
   }
 }
