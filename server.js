@@ -34,8 +34,8 @@ let port = +process.env.PORT || 3000;
 // }
 function getRandomQuote() {
   const randomEpisode = episodes[Math.floor(Math.random() * episodes.length)];
-  const firstScene = randomEpisode.scenes[0];
-  const randomLine = firstScene[0].line;
+  const randomScene = randomEpisode.scenes[0];
+  const randomLine = randomScene[0].line;
   return randomLine;
 }
 
